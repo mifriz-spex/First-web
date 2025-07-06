@@ -1,0 +1,93 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.navbar-container{
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+}
+
+.ulek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.lil-navbar{
+    list-style-type: none;
+    padding: 25px;
+    margin: 45px;
+    color: black;
+    font-size: 25px;
+}
+
+.lil-navbar:hover {
+    background-color: #3333;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 10px;
+}
+
+.a-navbar{
+    color: black;
+    text-decoration: solid;
+}
+
+/* konten  */
+
+
+.container-content{
+    background-image: url(code\ testo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img-content{
+    width: 35%;
+    height: 40%;
+}
+
+.kontena{
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container-contenthome{
+    background-image: url(code\ testo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+
+.kaki{
+    height: 10vh;
+    background-color: #5555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kaki1{
+    font-size: 30px ;
+    font-family: 'Courier New', Courier, monospace;
+}
